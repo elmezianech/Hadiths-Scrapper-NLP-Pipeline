@@ -38,7 +38,7 @@ The cleaned version of the Hadith is: "قامت الساعة وفي يد أح�
 - Tokenized Data : The tokenized data breaks down the cleaned Hadith into individual words.
 Here, each word is represented separately, forming the following tokens: ["قامت", "الساعة", "وفي", "يد", "أحدكم", "فسيلة", "استطاع", "تقوم", "يغرسها", "فليغرسها"]
 
-- Stemmed Data : The stemmed data reduces each word to its root form. For example, "قامت" becomes "قمت", ""الساعة becomes "سعة", and "فسيلة" becomes "فسل".
+- Stemmed Data : The stemmed data reduces each word to its root form using ISRIStemmer. For example, "قامت" becomes "قمت", ""الساعة becomes "سعة", and "فسيلة" becomes "فسل".
 
 - Lemmatized Data Using Stanza : The lemmatized data using the Stanza library provides the base forms of words. For instance, "قام" represents the lemma of "قامت", and "يغرس" represents the lemma of "يغرسها".
 
