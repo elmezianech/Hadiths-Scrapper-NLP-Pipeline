@@ -44,6 +44,8 @@ Here, each word is represented separately, forming the following tokens: ["قا�
 
 - Lemmatized Data Using Qalsadi : Similarly, the lemmatized data using the Qalsadi library offers the base forms of words. For example, "قام" represents the lemma of "قامت", and "أغرس" represents the lemma of "يغرسها".
 
+Lemmatization proves superior to stemming as it accurately preserves the meaning of words by reducing them to their base forms. This ensures consistency and clarity in understanding the text.
+
 - POS Tagging : The POS tagging assigns grammatical categories to each word in the Hadith. For example, "قامت" is tagged as a verb (VERB), "الساعة" as a noun (NOUN), and "في" as a conjunction (CCONJ).
 
 - Named Entity Recognition (NER) : The NER process identifies named entities in the text. However, the NER using Stanza appears to have limitations as it didn't identify all the entities present in the text. For instance, while it correctly tagged "المغرب" as a location (LOC) and "المسلمون" as a person (PER), it missed other entities present in the text. This suggests that the NER performance using Stanza may not be comprehensive and may require further refinement or additional training data to improve its accuracy.
