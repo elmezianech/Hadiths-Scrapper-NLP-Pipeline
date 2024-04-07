@@ -30,20 +30,37 @@ WebScrapping-NLP-pipeline/
 ├── outputs/
 
 │   ├── cleaned_data.json
+
 │   ├── lemmatized_data_qalsadi.json
+
 │   ├── lemmatized_data_stanza.json
+
 │   ├── ner_data.json
+
 │   ├── pos_data.json
+
 │   ├── stemmed_data.json
+
 │   └── tokenized_data.json
+
 └── spiders/
+
     ├── __init__.py
+    
     ├── main.py
+    
     ├── myspider.py
+    
     ├── nlp_pipeline.py
+    
 ├── __init__.py
+
 ├── items.py
+
 ├── middlewares.py
+
 ├── pipelines.py
+
 └── settings.py
+
 ├── scrapy.cfg
